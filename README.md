@@ -1,13 +1,13 @@
 
 Api For shortening url
 
-BASE_URL
+BASE_URL: http://shorteningurl.herokuapp.com
 
 REQUEST TYPE : POST
 
 REQUEST FORMAT : 'JSON(application/json)'
 
-REQUEST URL : BASE_URL/links
+REQUEST URL : BASE_URL/links.json
 
 Request body :
 
