@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  incoming_url: MyString
+  outgoing_url: MyString
+  status: 
+
+two:
+  incoming_url: MyString
+  outgoing_url: MyString
+  status: 
