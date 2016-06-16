@@ -1,0 +1,14 @@
+<table class="table table-hover">
+  <tr>
+    <th> Original Url </th>
+    <th> Shortened Url </th>
+    <th> Clicks </th>
+  </tr>
+  <% @links.each do |link|%>
+  <tr>
+    <td><%= link.outgoing_url %></td>
+    <td><%= link_to link.display_url, link.display_url %></td>
+    <td><%= link.clicks%></td>
+  </tr>
+  <% end %>
+</table>
