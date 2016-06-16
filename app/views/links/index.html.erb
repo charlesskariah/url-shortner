@@ -8,7 +8,7 @@
   <% @links.each do |link|%>
   <tr>
     <td><%= link.outgoing_url %></td>
-    <td><%= link_to link.display_url, link.display_url %></td>
+    <td><%= link_to link.display_url, link.display_url,  :target => "_blank" %></td>
     <td><%= link.clicks%></td>
   </tr>
   <% end %>
