@@ -1,5 +1,6 @@
 class Link < ActiveRecord::Base
   validates  :outgoing_url, :status, :presence => true
+  validates_format_of :outgoing_url, :with => URI::regexp(%w(http https))
   validates :incoming_url, :uniqueness => true
 
   after_create :generate_in_url
