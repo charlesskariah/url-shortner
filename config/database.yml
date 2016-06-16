@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: url-shortner
+  pool: 5
+  username: ubuntu
+  password: root
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: url_test
+  pool: 5
+  username: ubuntu
+  password: root
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: url_prod
+  pool: 5
+  username: ubuntu
+  password: root
