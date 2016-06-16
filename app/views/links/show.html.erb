@@ -4,7 +4,7 @@
     <div class="list-group">
       <a href="#" class="list-group-item"><h2>Your Url Details</h2></a>
       <li class="list-group-item">
-        <%= link_to link.display_url, link.incoming_url,  :target => "_blank" %>
+        <%= link_to @link.display_url, @link.incoming_url,  :target => "_blank" %>
       </li>
       <li class="list-group-item"><%= @link.outgoing_url%></li>
       <li class="list-group-item"><%= @link.clicks%></li>
