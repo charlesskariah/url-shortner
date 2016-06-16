@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'links#new'
+   root 'links#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -15,6 +15,7 @@ Rails.application.routes.draw do
      resources :links
     
      get ':incoming_url' => 'links#show'
+     
   # Example resource route with options:
   #   resources :products do
   #     member do

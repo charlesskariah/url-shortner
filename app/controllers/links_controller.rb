@@ -7,10 +7,15 @@ class LinksController < ApplicationController
   def create
     @link = Link.new(link_params)
     if @link.save
-      flash[:notice] = "Url  shortened successfully"
-      redirect_to new_link_path 
+      respond_to do |format|
+        format.json { render json: {original_url: @link.outgoing_url, shortened_url: @link.display_url}}
+        format.html { redirect_to @link, notice: "Url  shortened successfully" }
+      end
     else
-      render :new
+      respond_to do |format|
+        format.json { render json: @link.errors, status: :unprocessable_entity }
+        format.html { render :new }
+      end
     end
   end
   
