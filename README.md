@@ -22,5 +22,5 @@ Request Response:
 
 {
   "original_url": "https://github.com",
-  "shortened_url": "https://url-shortner-charles37.c9users.io/cb513dee79"
+  "shortened_url": "shorteningurl.herokuapp.com/a53eb18aa5"
 }
