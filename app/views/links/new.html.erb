@@ -13,10 +13,11 @@
     </div>
   <% end %>
   <p>
-    <%= f.label :outgoing_url %><br>
-    <%= f.text_field :outgoing_url %><br>
+    <label for="exampleInputEmail1">Original Url</label>
+    <%= f.text_field :outgoing_url, :class => "form-control", :placeholder => "Enter the original Url"  %>
+    <small class="text-muted">Please enter the url you want to shorten.</small>
   </p>
   <p>
-    <%= f.submit %>
+    <%= f.submit 'Generate Url',  :class => "btn btn-primary" %>
   </p>
 <% end %>
