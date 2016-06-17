@@ -11,11 +11,10 @@ describe Link do
     FactoryGirl.build(:link, outgoing_url: nil).should_not be_valid
   end
   
-  it "returns a contact's full name as a string" do
+  it "returns a  full display url name as a string" do
     link = FactoryGirl.create(:link)
     incoming_url = link.incoming_url
     link.display_url.should == "https://ide.c9.io/charles37/url-shortner/#{incoming_url}"
   end
-  
   
 end
