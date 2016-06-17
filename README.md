@@ -1,3 +1,14 @@
+This is a test application for shortening url's without using any gems in Ruby On Rails.
+
+Also have complete test coverage as well using rspec.
+
+Also you can find the number of clicks on this shortened url with this application dashboard.
+
+
+## Service is hosted at http://shorteningurl.herokuapp.com/
+
+Also we have exposed an api for testing the functionality
+
 
 Api For shortening url
 
