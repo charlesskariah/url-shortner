@@ -1,4 +1,4 @@
-[ ![Codeship Status for charlesskariah/url-shortner](https://codeship.com/projects/71a90000-17b9-0134-c8ca-2a776fb5d411/status?branch=master)](https://codeship.com/projects/158585)
+                                         [ ![Codeship Status for charlesskariah/url-shortner](https://codeship.com/projects/71a90000-17b9-0134-c8ca-2a776fb5d411/status?branch=master)](https://codeship.com/projects/158585)
 
 This is a test application for shortening url's without using any gems in Ruby On Rails.
 
