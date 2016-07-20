@@ -14,7 +14,7 @@ Also we have exposed an api for testing the functionality
 
 Api For shortening url
 
-BASE_URL: http://shorteningurl.herokuapp.com
+BASE_URL: https://yoururl.herokuapp.com/
 
 REQUEST TYPE : POST
 
