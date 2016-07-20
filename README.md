@@ -7,7 +7,7 @@ Also have complete test coverage as well using rspec.
 Also you can find the number of clicks on this shortened url with this application dashboard.
 
 
-## Service is hosted at http://shorteningurl.herokuapp.com/
+## Service is hosted at https://yoururl.herokuapp.com/
 
 Also we have exposed an api for testing the functionality
 
